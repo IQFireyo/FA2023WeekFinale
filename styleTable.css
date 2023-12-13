@@ -1,0 +1,48 @@
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+th, td {
+    border: 1px solid #f18282;
+    text-align: left;
+    padding: 8px;
+    
+}
+th {
+    background-color: #8a8686;
+    color: maroon;
+}
+
+.Maroon{
+    background-color: maroon;
+}
+
+.Forestgreen{
+    background-color: forestgreen;
+}
+
+.Olvie{
+    background-color: olive;
+}
+
+.lavender{
+    background-color: lavender;
+    color: black;
+}
+.navyblue{
+    background-color: navy;
+    
+}
+.limegreen{
+    background-color: limegreen;
+    color: black;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <!--Webpage
+    Week1 12/5/2023
+    Written by: Logan Nunn
+                logannunn70@gmail.com
+    -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mastery</title>
+        <script src="javaMastery.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="styleMastery.css">
+    </head>
+    <body>
+        <nav>
+            <h2> Navigation</h2>
+                <li><a href="./boards.html">
+                    Boards
+                </a></li>
+                <li><a href="./game.html">
+                    Game
+                </a></li>
+                <li><a href="./Strings.html">
+                    String
+                </a></li>
+                <li><a href="./index.html">
+                    Home
+                </a></li>
+        </nav>
+        <h1 style="text-align: center;"> 
+            Find the Dot!!
+            <br> <!-- Tile and button to start Game-->
+            <button onclick="FindDot()"> Start</button>
+        </h1>
+        <img class="victory" id=victory src="Victory.png" >
+   
+
+        <div class=dot id=dot onclick="toggleDot()"></div>
+        <!-- the Dot and Audio-->
+        <audio id="vicAdudio">
+            <source src="vic.mp3" type="audio/mp3">    
+        </audio>
+    </body>
+    </html>

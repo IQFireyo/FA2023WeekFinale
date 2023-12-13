@@ -1,0 +1,26 @@
+ /* the dot to find*/
+ .dot {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(0, 0, 0); 
+    border-radius: 50%; /* Make it a circle */
+    cursor: pointer;
+}
+
+.victory {/* the victory image*/
+    position: absolute;
+    visibility: visible;
+    scale: 200%;
+    top: 50%;
+    left: 50%;
+    
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}

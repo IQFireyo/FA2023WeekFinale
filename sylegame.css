@@ -1,0 +1,29 @@
+#die1Res{
+    color:rgb(190, 29, 29);
+    position: relative;
+    animation: mymove 5s infinite; 
+}
+#die2Res{
+    color:rgb(57, 95, 0);
+    position: relative;
+    animation: mymove 5s infinite;
+}
+#sumRes{
+    color:blue;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 400px;}
+}
+nav{
+    height: 8000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+
